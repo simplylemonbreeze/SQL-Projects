@@ -1,4 +1,4 @@
-Hello, I’m Daniela Frey! This code repository stores examples of SQL I've written through the Data Analytics Break Into Tech Course and Data Analytic courses taken through my instiution. I invite you to explore and please don't hesitate to reach out if you have any questions. 
+Hello, I’m Daniela Frey! This code repository stores examples of SQL I've written through the Data Analytics Break Into Tech Course and Data Analytic courses taken through my institution. I invite you to explore and please don't hesitate to reach out if you have any questions. 
 
 Some things to know about me: 
 I love learning the "why", experiencing life fully, and being a part of something purposeful.🌱 I’m currently learning the language of SQL while pursuing a Data Analytics degree, exploring my passions for environmental sustainability and distaster relief, and working on my indoor/outdoor climbing skills!⚡A fun fact about me is that my top strength on the Gallup Assessment is Thinker. I'd say this is pretty accurate since I love researching before making decisions and finding out the "why" as mentioned earlier! 📫 You can reach me at dfrey2003@icloud.com. 
