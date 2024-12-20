@@ -67,26 +67,26 @@ VALUES
 
 --Fortune 500 Analysis:
 
---First Query: List all the fortune companies below who have at least 20 PTO days 
+--First Query: List all the fortune companies below who have at least 20 PTO days. COMPANIES COULD USE THIS TO COMPARE WITH OTHER PTO POLICIES, ADJUSTING THEIR CURRENT PTO POLCIIES FOR COMPETITIVE PURPOSES IF NEED BE.  
 SELECT company_name, paid_time_off_days
 FROM fortune_companies
 WHERE paid_time_off_days >=20
 ;
 
---Second query: Show companies with healthcare benefits AND paid time off of at least 15 days. 
+--Second query: Show companies with healthcare benefits AND paid time off of at least 15 days. DATA CAN BE USED TO IMPROVE RECRUITMENT STRATEGIES BY HIGHLIGHTING ATTRACTIVE BENEFITS IN JOB POSTINGS. 
 Select company_name, paid_time_off_days, healthcare_benefits
 FROM fortune_companies
 WHERE healthcare_benefits=1
 AND paid_time_off_days>=15
 ;
 
---Third Query: Show all of the industries having an average revenue of at least 200 billion. 
+--Third Query: Show all of the industries having an average revenue of at least 200 billion. COMPANIES CAN ANALYZE WHICH INDUSTRIES ARE HIGHLY PROFITABLE, WHICH MIGHT INFORM DECISIONS ABOUT RESOURCE ALLOCATION OR OR EXPANSION INTO NEW SECTORS! 
 Select industry, ROUND(AVG (revenue),2) AS average_revenue
 FROM fortune_companies 
 HAVING average_revenue>=200
 ;
 
---Fourth Query: Assign all the companies in the Healthcare industry as "mother friendly workplace", "acceptable", or "poor" based on the maternity leave offered.
+--Fourth Query: Assign all the companies in the Healthcare industry as "mother friendly workplace", "acceptable", or "poor" based on the maternity leave offered. THIS DATA CAN INFROM HUMAN RESOURCES AND OTHER MANAGEMENT TEAMS ABOUT HOW THEIR MATERNITY LEAVE POLICIES STACK UP AGAINST INDUSTRY STANDARDS AND GUIDE IMPROVEMENTS WHERE NEEDED.
 SELECT company_name,
 CASE
 WHEN maternity_leave_weeks>=12 THEN "mother-friendly"
